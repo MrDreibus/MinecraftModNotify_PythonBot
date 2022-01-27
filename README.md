@@ -7,7 +7,7 @@ This bot was created as a learning tool to learn how to use the different librar
 
 **beautifulsoup4**
 Is a Python package for parsing HTML and XML documents
-```pip3 install beautifulsoup4```
+``pip3 install beautifulsoup4``
 
 **pandas**
 Is an open source Python package that is most widely used for data science/data analysis and machine learning tasks
