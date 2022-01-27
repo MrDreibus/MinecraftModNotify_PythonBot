@@ -7,8 +7,8 @@ from telegram import ParseMode, parsemode
 from bs4 import BeautifulSoup
 
 def notificacion(message):
-    bot = telegram.Bot('1654757285:AAFKSIHhw3ybY6ryZIpNP1Qe61SNZnMX5hs')
-    bot.sendMessage('-1001788807187', text=message, parse_mode="markdown")
+    bot = telegram.Bot('YOUR_BOT_ID')
+    bot.sendMessage('YOUR_CHAT_ID', text=message, parse_mode="markdown")
 
 def checkFileExistance(filePath):
     try:
